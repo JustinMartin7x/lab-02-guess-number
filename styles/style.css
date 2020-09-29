@@ -123,3 +123,18 @@ footer {
     }
 
   }
+  .submit{
+      background-color: lightblue;
+      border-radius: 50px;
+      display: block;
+  }
+
+
+  .tryAgain {
+    border-radius: 50px;
+    display: none;
+
+  }
+  .input {
+      display: block;
+  }
