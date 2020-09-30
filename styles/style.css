@@ -1,10 +1,10 @@
 
 body {
-    --color1: #ffffff;
-    --color2: #ffffff;
-    --color3: #ffffff;
-    --color4: #ffffff;
-    --color5: #ffffff;
+    --xiketic: #14080eff;
+    --independence: #49475bff;
+    --steel-teal: #799496ff;
+    --laurel-green: #acc196ff;
+    --green-yellow-crayola: #e9eb9eff;
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -29,6 +29,7 @@ body {
 }
 
 main {
+    background-image: url('../assets/Poe.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,16 +55,17 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: gray
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
 
 footer {
+    background-color: gray;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
+    
+    
 }
 
 
